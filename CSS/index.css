@@ -132,6 +132,29 @@ table {
 body {
   background-color: firebrick;
 }
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.projects img {
+  width: 30%;
+  border-radius: 30%;
+}
+header {
+  margin: 1%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+header img {
+  background-color: orangered;
+  width: 30%;
+  border-radius: 50%;
+  border: 3px solid crimson;
+  padding: 0.5%;
+}
 footer {
   background-color: crimson;
 }
