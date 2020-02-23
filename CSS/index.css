@@ -131,6 +131,16 @@ table {
 }
 html {
   background-color: papayawhip;
+  animation-name: colorful;
+  animation-duration: 7s;
+}
+@keyframes colorful {
+  0% {
+    background-color: black;
+  }
+  100% {
+    background-color: papayawhip;
+  }
 }
 body section {
   display: flex;
@@ -153,26 +163,25 @@ header {
   align-items: center;
   text-align: center;
   font-family: 'Overlock SC';
-  color: #ff0000;
   font-weight: bold;
 }
 header h1 {
   font-size: 5rem;
-  color: red;
+  color: firebrick;
   text-shadow: 1.5px 1.5px black;
 }
 header h3 {
   font-size: 1.5rem;
-  color: #dc0000;
+  color: crimson;
   text-shadow: 0.6px 0.6px black;
 }
 header img {
-  background-color: orangered;
+  background-color: crimson;
   width: 25%;
   border-radius: 50%;
-  border: 3px solid crimson;
+  border: 3px solid firebrick;
   box-shadow: 9px 9px 5px #413f3f;
-  padding: 0.5%;
+  padding: 0.3%;
 }
 footer {
   display: flex;
