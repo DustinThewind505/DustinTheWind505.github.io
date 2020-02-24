@@ -217,6 +217,9 @@ footer small {
   font-size: 0.8rem;
 }
 footer img {
-  width: 100px;
-  height: 100px;
+  width: 50%;
+}
+footer .contact-links {
+  display: flex;
+  justify-content: space-evenly;
 }
