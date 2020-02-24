@@ -132,7 +132,7 @@ table {
 html {
   background-color: papayawhip;
   animation-name: colorful;
-  animation-duration: 7s;
+  animation-duration: 10s;
 }
 @keyframes colorful {
   0% {
@@ -215,6 +215,10 @@ footer {
 }
 footer a {
   text-align: center;
+}
+footer a:hover {
+  box-shadow: 5px 5px 5px black;
+  background-color: blueviolet;
 }
 footer small {
   font-size: 0.8rem;
