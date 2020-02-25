@@ -151,13 +151,13 @@ header {
   margin: 0.7% 0;
   display: flex;
   flex-direction: row;
-  align-items: center;
+  align-items: flex-start;
   text-align: center;
   font-family: 'Overlock SC';
   font-weight: bold;
 }
 header h1 {
-  font-size: 5rem;
+  font-size: 5.5rem;
   color: firebrick;
   text-shadow: 1.5px 1.5px black;
 }
@@ -172,7 +172,7 @@ header img {
 }
 header #profile-image {
   background-color: crimson;
-  width: 40%;
+  width: 43%;
   border-radius: 50%;
   border: 3px solid firebrick;
   box-shadow: 9px 9px 5px #413f3f;
@@ -189,14 +189,15 @@ header .header-right {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-bottom: 5%;
+  justify-content: flex-start;
+  padding-top: 0.5%;
 }
 header .header-right img {
-  width: 50%;
+  width: 55%;
 }
 header #lambda-logo1 {
   width: 30%;
-  margin-bottom: 1%;
+  margin-bottom: 2%;
 }
 header .language-img1 {
   background-color: crimson;
@@ -241,6 +242,12 @@ header .language-img2 {
   text-align: center;
   line-height: 2rem;
 }
+.main-container .projects a {
+  text-align: center;
+}
+.main-container .projects a:hover {
+  background-color: blueviolet;
+}
 .main-container .projects img {
   width: 85%;
   border: 4px solid #0f0f0f;
@@ -253,7 +260,7 @@ footer {
   justify-content: space-between;
   border-top: 1px solid black;
   background-color: crimson;
-  padding: 0.5% 1%;
+  padding: 0.2% 1%;
 }
 footer div {
   width: 30%;
@@ -277,11 +284,15 @@ footer .contact-links {
 }
 footer .codesandbox-logo {
   text-align: center;
-  padding: 5px 0 5.5px;
+  padding: 3.8% 0 3.6%;
 }
 footer .zia-img {
   width: 8%;
-  margin-bottom: 3%;
+  margin: 1% 0 2.5%;
+  border: 1px solid black;
+}
+footer .footer-left {
+  padding-top: 0.3%;
 }
 footer .footer-middle {
   display: flex;
