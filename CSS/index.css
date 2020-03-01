@@ -223,6 +223,12 @@ header .language-img2 {
   justify-content: space-evenly;
   padding: 1% 0;
 }
+@media (max-width: 500px) {
+  .main-container .project-section {
+    display: flex;
+    flex-direction: column;
+  }
+}
 .main-container .projects {
   width: 32%;
   background-color: #191919;
@@ -247,6 +253,12 @@ header .language-img2 {
 }
 .main-container .projects a:hover {
   background-color: blueviolet;
+}
+@media (max-width: 500px) {
+  .main-container .projects {
+    width: 90%;
+    margin: 1% 0;
+  }
 }
 .main-container .projects img {
   width: 85%;

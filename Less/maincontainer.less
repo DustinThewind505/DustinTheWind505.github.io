@@ -10,6 +10,11 @@
         flex-direction: row;
         justify-content: space-evenly;
         padding: 1% 0;
+
+        @media @mobile {
+            display: flex;
+            flex-direction: column;
+        }
     }
 
     .projects {
@@ -40,6 +45,11 @@
         a:hover {
             
             background-color: blueviolet;
+        }
+
+        @media @mobile {
+            width: 90%;
+            margin: 1% 0;
         }
     }
     
