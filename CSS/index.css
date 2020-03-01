@@ -163,13 +163,18 @@ header h1 {
 }
 @media (max-width: 500px) {
   header h1 {
-    font-size: 4rem;
+    font-size: 2.9rem;
   }
 }
 header h3 {
   font-size: 1.5rem;
   color: crimson;
   text-shadow: 0.6px 0.6px black;
+}
+@media (max-width: 500px) {
+  header h3 {
+    font-size: 1.1rem;
+  }
 }
 header img {
   width: 40%;
@@ -183,11 +188,22 @@ header #profile-image {
   box-shadow: 9px 9px 5px #413f3f;
   padding: 0.3%;
 }
+@media (max-width: 500px) {
+  header #profile-image {
+    width: 70%;
+  }
+}
 header .header-left {
   width: 60%;
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+@media (max-width: 500px) {
+  header .header-left {
+    width: 90%;
+    margin: 1% 0;
+  }
 }
 header .header-right {
   width: 40%;
@@ -196,6 +212,11 @@ header .header-right {
   align-items: center;
   justify-content: flex-start;
   padding-top: 0.5%;
+}
+@media (max-width: 500px) {
+  header .header-right {
+    display: none;
+  }
 }
 header .header-right img {
   width: 55%;
@@ -218,6 +239,13 @@ header .language-img2 {
   border-top: 0;
   border-bottom-right-radius: 30%;
   padding: 0 1% 1% 1%;
+}
+@media (max-width: 500px) {
+  header {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
 }
 .main-container {
   color: blanchedalmond;
