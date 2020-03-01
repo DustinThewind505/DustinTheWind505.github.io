@@ -161,6 +161,11 @@ header h1 {
   color: firebrick;
   text-shadow: 1.5px 1.5px black;
 }
+@media (max-width: 500px) {
+  header h1 {
+    font-size: 4rem;
+  }
+}
 header h3 {
   font-size: 1.5rem;
   color: crimson;
@@ -287,6 +292,11 @@ footer a:hover {
 footer small {
   font-size: 0.8rem;
 }
+@media (max-width: 500px) {
+  footer small {
+    font-size: 0.49rem;
+  }
+}
 footer img {
   width: 50%;
 }
@@ -303,6 +313,11 @@ footer .zia-img {
   margin: 1% 0 2.5%;
   border: 1px solid black;
 }
+@media (max-width: 500px) {
+  footer .zia-img {
+    display: none;
+  }
+}
 footer .footer-left {
   padding-top: 0.3%;
 }
@@ -315,4 +330,10 @@ footer .footer-middle {
 footer .footer-right {
   display: flex;
   margin-right: 10%;
+}
+@media (max-width: 500px) {
+  footer {
+    display: flex;
+    align-items: center;
+  }
 }
