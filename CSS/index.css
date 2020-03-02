@@ -191,6 +191,7 @@ header #profile-image {
 @media (max-width: 500px) {
   header #profile-image {
     width: 65%;
+    margin-bottom: 3%;
   }
 }
 header .header-left {
@@ -299,8 +300,8 @@ header .language-img2 {
 }
 @media (max-width: 500px) {
   .main-container .projects {
-    width: 85%;
-    margin: 1% 0;
+    width: 80%;
+    margin: 3% 0;
   }
 }
 .main-container .projects img {
@@ -379,7 +380,7 @@ footer .footer-middle {
 }
 @media (max-width: 500px) {
   footer .footer-middle {
-    width: 50%;
+    width: 60%;
     font-size: 1.5rem;
   }
 }
@@ -389,7 +390,7 @@ footer .footer-right {
 }
 @media (max-width: 500px) {
   footer .footer-right {
-    width: 30%;
+    width: 20%;
   }
 }
 @media (max-width: 500px) {
