@@ -85,7 +85,7 @@ audio,
 video {
   margin: 0;
   padding: 0;
-  border: 1px solid black;
+  border: 0;
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
@@ -163,7 +163,7 @@ header h1 {
 }
 @media (max-width: 500px) {
   header h1 {
-    font-size: 2.9rem;
+    font-size: 2.7rem;
   }
 }
 header h3 {
@@ -173,7 +173,7 @@ header h3 {
 }
 @media (max-width: 500px) {
   header h3 {
-    font-size: 1.1rem;
+    font-size: 0.9rem;
   }
 }
 header img {
@@ -190,7 +190,7 @@ header #profile-image {
 }
 @media (max-width: 500px) {
   header #profile-image {
-    width: 70%;
+    width: 65%;
   }
 }
 header .header-left {
@@ -250,6 +250,28 @@ header .language-img2 {
 .main-container {
   color: blanchedalmond;
 }
+.main-container h2 {
+  font-size: 2rem;
+}
+@media (max-width: 500px) {
+  .main-container h2 {
+    font-size: 1.5rem;
+  }
+}
+.main-container p {
+  width: 85%;
+  font-size: 1.3rem;
+  text-align: center;
+  line-height: 2rem;
+}
+@media (max-width: 500px) {
+  .main-container p {
+    font-size: 1rem;
+  }
+}
+.main-container a {
+  text-align: center;
+}
 .main-container .project-section {
   display: flex;
   flex-direction: row;
@@ -272,24 +294,12 @@ header .language-img2 {
   border: 2px solid black;
   border-radius: 10px;
 }
-.main-container .projects h2 {
-  font-size: 2rem;
-}
-.main-container .projects p {
-  width: 85%;
-  font-size: 1.3rem;
-  text-align: center;
-  line-height: 2rem;
-}
-.main-container .projects a {
-  text-align: center;
-}
 .main-container .projects a:hover {
   background-color: blueviolet;
 }
 @media (max-width: 500px) {
   .main-container .projects {
-    width: 90%;
+    width: 85%;
     margin: 1% 0;
   }
 }
@@ -322,11 +332,17 @@ footer small {
 }
 @media (max-width: 500px) {
   footer small {
-    font-size: 0.5rem;
+    font-size: 0.7rem;
+    font-weight: bold;
   }
 }
 footer img {
   width: 50%;
+}
+@media (max-width: 500px) {
+  footer img {
+    width: 100%;
+  }
 }
 footer .contact-links {
   display: flex;
@@ -349,6 +365,11 @@ footer .zia-img {
 footer .footer-left {
   padding-top: 0.3%;
 }
+@media (max-width: 500px) {
+  footer .footer-left {
+    width: 20%;
+  }
+}
 footer .footer-middle {
   width: 45%;
   display: flex;
@@ -356,9 +377,20 @@ footer .footer-middle {
   justify-content: baseline;
   align-items: center;
 }
+@media (max-width: 500px) {
+  footer .footer-middle {
+    width: 50%;
+    font-size: 1.5rem;
+  }
+}
 footer .footer-right {
   display: flex;
   margin-right: 10%;
+}
+@media (max-width: 500px) {
+  footer .footer-right {
+    width: 30%;
+  }
 }
 @media (max-width: 500px) {
   footer {

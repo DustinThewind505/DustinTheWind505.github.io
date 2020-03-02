@@ -24,12 +24,17 @@ footer {
         font-size: 0.8rem;
 
         @media @mobile {
-            font-size: 0.5rem;
+            font-size: 0.7rem;
+            font-weight: bold;
         }
     }
 
     img {
-        width: 50%
+        width: 50%;
+
+        @media @mobile {
+            width: 100%;
+        }
     }
 
     .contact-links {
@@ -54,6 +59,10 @@ footer {
 
     .footer-left {
         padding-top: 0.3%;
+
+        @media @mobile {
+            width: 20%;
+        }
     }
 
     .footer-middle {
@@ -62,11 +71,20 @@ footer {
         flex-direction: column;
         justify-content: baseline;
         align-items: center;
+
+        @media @mobile {
+            width: 50%;
+            font-size: 1.5rem;
+        }
     }
 
     .footer-right {
         display: flex;
         margin-right: 10%;
+
+        @media @mobile {
+            width: 30%;
+        }
     }
 
     @media @mobile {
