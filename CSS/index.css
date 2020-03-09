@@ -160,12 +160,7 @@ body section {
   height: 25px;
   background: rgba(138, 43, 226, 0.5);
   animation: animate 20s linear infinite;
-  bottom: -270px;
-}
-@media (max-width: 500px) {
-  .boxes li {
-    bottom: -870px;
-  }
+  bottom: 0;
 }
 .boxes li:nth-child(1) {
   left: 86%;
@@ -417,6 +412,7 @@ footer {
 }
 footer div {
   width: 30%;
+  z-index: 1;
 }
 footer a {
   text-align: center;
