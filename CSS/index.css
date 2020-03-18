@@ -132,11 +132,11 @@ table {
 html {
   background-color: papayawhip;
   animation-name: colorful;
-  animation-duration: 10s;
+  animation-duration: 7s;
 }
 @keyframes colorful {
   0% {
-    background-color: black;
+    background-color: crimson;
   }
   100% {
     background-color: papayawhip;
