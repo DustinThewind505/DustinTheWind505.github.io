@@ -23,34 +23,19 @@ body {
     }
 }
 
-.box-container {
-  background: linear-gradient(to left, #8942a8, #ba382f);
-  width: 100%;
-  height: 100vh;
-}
+
 
 .boxes {
-  // position: absolute;
-  // top: 0;
-  // left: 0;
-  // width: 100%;
-  // height: 100%;
-  // overflow: hidden;
+z-index: 2;
 }
 
 .boxes li {
   position: absolute;
   display: block;
   list-style-type: none;
-  width: 25px;
-  height: 25px;
   background: rgba(138, 43, 226, 0.5);
   animation: animate 20s linear infinite;
   bottom: 0;
-
-  @media @mobile {
-    bottom: -870px;
-  }
 }
 
 .boxes li:nth-child(1) {
@@ -58,6 +43,13 @@ body {
   width: 80px;
   height: 80px;
   animation-delay: 0s;
+
+  @media @mobile {
+    left: 5%;
+    bottom: -40%;
+    animation-delay: 0s;
+    animation-duration: 15s;
+  }
 }
 
 .boxes li:nth-child(2) {
@@ -66,6 +58,13 @@ body {
   height: 30px;
   animation-delay: 1.5s;
   animation-duration: 10s;
+
+  @media @mobile {
+    left: 0%;
+    bottom: -80%;
+    animation-delay: 1s;
+    animation-duration: 10s;
+  }
 }
 
 .boxes li:nth-child(3) {
@@ -73,6 +72,13 @@ body {
   width: 100px;
   height: 100px;
   animation-delay: 5.5s;
+
+  @media @mobile {
+    left: 65%;
+    bottom: -80%;
+    animation-delay: 0s;
+    animation-duration: 13s;
+  }
 }
 
 .boxes li:nth-child(4) {
@@ -81,6 +87,13 @@ body {
   height: 150px;
   animation-delay: 0s;
   animation-duration: 15s;
+
+  @media @mobile {
+    left: 5%;
+    bottom: -100%;
+    animation-delay: 0s;
+    animation-duration: 16s;
+  }
 }
 
 .boxes li:nth-child(5) {
@@ -88,6 +101,13 @@ body {
   width: 40px;
   height: 40px;
   animation-delay: 0s;
+
+  @media @mobile {
+    left: 65%;
+    bottom: -40%;
+    animation-delay: 0s;
+    animation-duration: 17s;
+  }
 }
 
 .boxes li:nth-child(6) {
@@ -95,6 +115,14 @@ body {
   width: 110px;
   height: 110px;
   animation-delay: 7.5s;
+
+  @media @mobile {
+    left: 5%;
+    bottom: 0;
+    animation-delay: 0s;
+    animation-duration: 19s;
+    //display: none;
+  }
 }
 
 .boxes li:nth-child(7) {
@@ -102,6 +130,13 @@ body {
   width: 40px;
   height: 40px;
   animation-delay: 0s;
+
+  @media @mobile {
+    left: 85%;
+    bottom: 0;
+    animation-delay: 0s;
+    animation-duration: 14s;
+  }
 }
 
 .boxes li:nth-child(8) {
@@ -109,6 +144,13 @@ body {
   width: 90px;
   height: 90px;
   animation-delay: 6.5s;
+
+  @media @mobile {
+    left: 70%;
+    bottom: -100%;
+    animation-delay: 1s;
+    animation-duration: 17s;
+  }
 }
 
 .boxes li:nth-child(9) {
@@ -117,6 +159,13 @@ body {
   height: 120px;
   animation-delay: 0.8s;
   animation-duration: 15s;
+  
+  @media @mobile {
+    left: 60%;
+    bottom: -120%;
+    animation-delay: 2s;
+    animation-duration: 4s;
+  }
 }
 
 .boxes li:nth-child(10) {
@@ -125,6 +174,15 @@ body {
   height: 120px;
   animation-delay: 1.8s;
   animation-duration: 10s;
+
+  @media @mobile {
+    width: 40px;
+    height: 40px;
+    left: 0;
+    bottom: -120%;
+    animation-delay: 0s;
+    animation-duration: 4s;
+  }
 }
 
 @keyframes animate {
